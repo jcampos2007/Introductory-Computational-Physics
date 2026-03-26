@@ -23,7 +23,7 @@ And with viscosity $\nu = 0.01$
 * **Classical Baseline:** Includes a finite difference solver for direct accuracy and runtime comparisons.
 * **Ensemble Training Pipeline:** Automates multiple training runs to evaluate the variance of random weight initializations.
 * **Advanced Diagnostics:**
-* Spatiotemporal heatmaps (using `seismic` and `magma` colormaps) for velocity and absolute error.
+* Spatiotemporal heatmaps (using `seismic` and `magma` colormaps) for function $u$ and absolute error.
 * Statistical curve fitting (`scipy.stats`) modeling ensemble Execution Times and Mean Squared Errors (Gamma/Log-Normal).
 * Pearson correlation analysis between runtime and model accuracy.
 
